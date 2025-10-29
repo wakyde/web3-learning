@@ -2,7 +2,7 @@
 pragma solidity >=0.4.16 <0.9.0;
 
 
-contract C {
+contract arrayAndStruct {
     
     function f() public pure {
         g([uint(1), 2, 3]);
@@ -43,7 +43,7 @@ contract C {
     function initStudent3() external {
         student = Student(3, 90);
     }
-    
+
     // 方法4:key value
     function initStudent4() external {
         student = Student({id: 4, score: 60});
